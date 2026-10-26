@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
-    "db:migrate": "knex migrate:latest --knexfile knexfile.js",
-    "db:rollback": "knex migrate:rollback --knexfile knexfile.js"
+    "db:migrate": "knex migrate:latest --knexfile knexfile.js"
   },
   "dependencies": {
     "dotenv": "^18.0.9",
